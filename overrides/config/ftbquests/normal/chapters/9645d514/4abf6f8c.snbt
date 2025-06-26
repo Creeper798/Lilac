@@ -1,0 +1,31 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	text: [
+		"Check out the image below this Quest if you need help.",
+		"",
+		"Make a 1-Block Deep 5x5 hole in the ground in a safe spot. ",
+		"Place Water in the middle of the 5x5 hole, so that it is flowing evenly to all sides and corners.",
+		"Then, place your 4 Water Mills diagonally from the middle Water block. The Mills should be inbetween the Water block and the corners of the hole.",
+		"",
+		"If you did it correctly, when you hover over a Water Mill it should say \"Power Generating: 14\"",
+		"",
+		"Congrats! You now have Grid Power."
+	],
+	dependencies: [
+		"0c83b01a"
+	],
+	tasks: [{
+		uid: "f651a97f",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 3"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "9722df79",
+		type: "item",
+		item: "minecraft:water_bucket"
+	}]
+}

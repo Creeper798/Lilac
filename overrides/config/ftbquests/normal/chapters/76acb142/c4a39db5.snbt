@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "1884c4d4",
+		type: "checkmark",
+		title: "Yes, we have Draconic Evolution."
+	}],
+	rewards: [{
+		uid: "0db9c861",
+		type: "item",
+		item: "minecraft:stick"
+	}]
+}

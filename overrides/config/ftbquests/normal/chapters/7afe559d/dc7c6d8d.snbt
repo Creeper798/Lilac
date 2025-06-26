@@ -1,0 +1,37 @@
+{
+	title: "Galacticraft Planets",
+	x: 2.0d,
+	y: -2.0d,
+	dependencies: [
+		"491babd4"
+	],
+	optional: true,
+	tasks: [{
+		uid: "427901dd",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:basic_block_moon 1 5"
+		}]
+	},
+	{
+		uid: "9b63181c",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:mars 1 6"
+		}]
+	},
+	{
+		uid: "b0da64f4",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:asteroids_block 1 2"
+		}]
+	},
+	{
+		uid: "61583dec",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:venus"
+		}]
+	}]
+}

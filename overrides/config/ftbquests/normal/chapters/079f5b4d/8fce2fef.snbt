@@ -1,0 +1,51 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"*YOU NEED A REDSTONE FLUX NETWORK FOR THIS QUESTLINE*",
+		"",
+		"Laser Drills let you automate the collection of any type of Ore. ",
+		"",
+		"The Laser Base must be set up with a direct line-of-sight to Bedrock below it. Place the Laser Drills facing the Laser Base, leaving a one-block gap in between the two blocks.",
+		"(See reference image near this Quest)",
+		"",
+		"You'll need to supply these all with power. I recommend using a Flux Point and connecting all these machines with Fluxducts.",
+		"",
+		"If you don't have a Storage System set up, make a Diamond Chest and pipe the output of the Laser Base to it. Once this thing gets going it will output a lot of items.",
+		"(Make sure you turn off the output of the Laser Lens slots)",
+		"",
+		"I highly recommend adding more Laser Drills and upgrading them."
+	],
+	dependencies: [
+		"f3fdc773"
+	],
+	tasks: [{
+		uid: "2a834664",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_base"
+		}]
+	},
+	{
+		uid: "35d8ae95",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_drill"
+		}]
+	}],
+	rewards: [{
+		uid: "34d21a4c",
+		type: "item",
+		item: "industrialforegoing:laser_drill"
+	},
+	{
+		uid: "14362e0f",
+		type: "item",
+		item: "teslacorelib:speed_tier1"
+	},
+	{
+		uid: "976e04f7",
+		type: "item",
+		item: "teslacorelib:energy_tier1"
+	}]
+}

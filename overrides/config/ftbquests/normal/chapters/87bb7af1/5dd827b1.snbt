@@ -1,0 +1,14 @@
+{
+	title: "Tinkers' Tools",
+	x: -1.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "6f7e1b0c",
+		type: "item",
+		items: [{
+			item: "tconstruct:book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

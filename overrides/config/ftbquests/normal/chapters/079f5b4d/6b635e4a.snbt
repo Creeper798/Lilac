@@ -1,0 +1,46 @@
+{
+	title: "Duplicating Pink Slime",
+	x: 12.5d,
+	y: 0.0d,
+	text: [
+		"Congrats!! You have everything you need to mass produce Pink Slime!",
+		"",
+		"",
+		"*READ THESE INSTRUCTIONS FULLY BEFORE DOING ANYTHING*",
+		"Grab that Pink Slime Bucket that I told you to set aside earlier, find a safe place and then place the Pink Slime on the ground.",
+		"Wait for a little bit, and a Pink Slime mob will spawn.",
+		"Capture the slime in the Mob Imprisonment Tool.",
+		"**************************",
+		"",
+		"Set the Mob Duplicator up somewhere safe, supply it with power and put the Mob Imprisonment Tool inside of it.",
+		"You'll see the Duplicator takes a fluid called Essence. This is just a liquid form of Experience. You can just Right-Click the Duplicator with your Tome of Knowledge to fill it with XP.",
+		"",
+		"It should immediately start spawning Pink Slime.",
+		"You can kill these Pink Slime to obtain the Pink Slime item."
+	],
+	dependencies: [
+		"56dde5aa"
+	],
+	tasks: [{
+		uid: "d1c3b857",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_imprisonment_tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3a414f42",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_duplicator"
+		}]
+	}],
+	rewards: [{
+		uid: "135c1063",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 16
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Flux Buddies",
+	x: -1.0d,
+	y: 4.5d,
+	text: [
+		"Fluxducts are pipes that transfer RF. They have no direction, they simply follow the input/output sides of the machines they are connected to.",
+		"",
+		"If you hold Shift while hovering over one in your inventory, you will see how much RF can be transfered through a pipe every Tick (Minecraft's unit of Time). The higher this number, the better.",
+		"And, this value absolutely will come into play in the late game, with the Draconic Quest Line.",
+		"",
+		"The Crescent Hammer I give you as a reward is very useful. Right-clicking a machine with it will rotate the direction that machine is facing. ",
+		"Shift-Right-Clicking a machine, or a Fluxduct will instantly destroy that block. Right-click the connection point of a Fluxduct to explicitly disconnect that end from a machine."
+	],
+	dependencies: [
+		"16d751eb"
+	],
+	optional: true,
+	tasks: [{
+		uid: "b0e909c2",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_0"
+		}]
+	}],
+	rewards: [{
+		uid: "873cdcad",
+		type: "item",
+		item: "thermalfoundation:wrench"
+	}]
+}

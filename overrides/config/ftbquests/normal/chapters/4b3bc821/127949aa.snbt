@@ -1,0 +1,29 @@
+{
+	title: "Getting Around",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"One of the fastest ways to travel in this Modpack is by using a Slime Sling to fling yourself around.",
+		"",
+		"Hold the Sling in your hands, aim at a block that is away from the direction you want to move, hold Right-Click and release once it has charged. You will be pushed away from the direction you were aiming.",
+		"",
+		"Equip the Slime Boots to maintain your momentum, bounce when you hit the ground and negate fall damage. You can crouch to stop bouncing, but you will take fall damage if you do."
+	],
+	dependencies: [
+		"a8ca811b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "aee2905f",
+		type: "item",
+		items: [{
+			item: "tconstruct:slimesling"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "698e357e",
+		type: "item",
+		item: "tconstruct:slime_boots"
+	}]
+}

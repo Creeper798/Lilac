@@ -1,0 +1,42 @@
+{
+	title: "ATOMIC DISASSEMBLER",
+	x: 9.0d,
+	y: 0.5d,
+	shape: "heart",
+	text: [
+		"Be careful with this thing. It will one-hit-kill most mobs and players.",
+		"On fast mode (Shift, right click while holding it to change modes) it will mine almost anything instantly. ",
+		"Also right-click grass to use it as a hoe :)",
+		"",
+		"",
+		"It runs on RF, and will stop working when it runs out of power. The next quest will show you what you need to charge it."
+	],
+	dependencies: [
+		"69ca7e59"
+	],
+	size: 2.0d,
+	or_tasks: true,
+	tasks: [{
+		uid: "96d5feb4",
+		type: "item",
+		items: [{
+			item: "mekanism:atomicdisassembler"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "32df1626",
+		type: "item",
+		items: [{
+			id: "mekanism:atomicdisassembler",
+			tag: {
+				mekData: {
+					energyStored: 1000000.0d
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

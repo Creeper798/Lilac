@@ -1,0 +1,38 @@
+{
+	title: "Alright bro, chill...",
+	x: 3.5d,
+	y: -2.0d,
+	text: [
+		"This is a lot of energy, my dude. You may want to just start building a Reactor?"
+	],
+	dependencies: [
+		"31731c68"
+	],
+	optional: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "cbf4b6e1",
+		type: "item",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 2
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3601e5fe",
+		type: "item",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 2,
+				mekData: {
+					energyStored: 3.2E7d
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

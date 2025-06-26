@@ -1,0 +1,28 @@
+{
+	title: "Upgrades, people...",
+	x: 1.0d,
+	y: 0.5d,
+	description: "I hope you mined any Nickel you saw...",
+	text: [
+		"Right-Click your Thermal Expansion machines (Redstone Furnace, Pulverizer) to increase their energy storage capacity and unlock Augmentation slots to upgrade in various ways.",
+		"",
+		"I recommend spending some time upgrading these machines before moving on, it will help a lot in the long run.",
+		"",
+		"To upgrade further, make the higher level Upgrade Kits and add more of the same Augments."
+	],
+	dependencies: [
+		"50fc9b00"
+	],
+	tasks: [{
+		uid: "a7c084ac",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "62661b2f",
+		type: "item",
+		item: "thermalexpansion:augment 1 128"
+	}]
+}

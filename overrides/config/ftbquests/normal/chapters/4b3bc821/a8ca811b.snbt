@@ -1,0 +1,22 @@
+{
+	title: "The Crafting Table she tells you not to worry about",
+	x: -2.5d,
+	y: 0.0d,
+	text: [
+		"The Crafting Station is just objectively better than a regular Crafting Table.",
+		"",
+		"Crafting Stations keep your items when you leave them. Put an item in there, leave, and it will still be there when you get back.",
+		"",
+		"Put a Crafting Station next to a Chest to link that Chest's Inventory and you'll be able to access all of its items without needing to leave the Table."
+	],
+	dependencies: [
+		"19c82b45"
+	],
+	tasks: [{
+		uid: "8ca81b3c",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables"
+		}]
+	}]
+}

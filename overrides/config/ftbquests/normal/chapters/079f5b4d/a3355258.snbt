@@ -1,0 +1,150 @@
+{
+	title: "Laser Lens!",
+	x: 16.0d,
+	y: 0.0d,
+	text: [
+		"You only need one color of Laser Lens to complete this quest.",
+		"",
+		"Good job!! You can now put the Laser Lens of your choice into the Laser Base to tell it what you would like it to mine.",
+		"Make sure you also configure the Laser Base to mine at the proper Height.",
+		"",
+		"The more Lenses of a certain color that you have, the more likely the Laser is to mine items designated by that color.",
+		"",
+		"I recommend having Yellow, Light Blue, Brown, and Red to mine for Yellorite, Diamonds, Iron and Redstone, respectively.",
+		"",
+		"Google \"Laser Lens\" for a wiki entry showing you what Ore will be mined with certain colors, and what the best Height configuration is for the Ore that you want."
+	],
+	dependencies: [
+		"6b635e4a"
+	],
+	size: 2.0d,
+	or_tasks: true,
+	tasks: [{
+		uid: "88952576",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_lens"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "700ac23c",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_lens 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9cdbb591",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_lens 1 2"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "071787d4",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_lens 1 3"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6e1b3cd4",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_lens 1 4"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d464e740",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_lens 1 5"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "50168815",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_lens 1 6"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "260b511e",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_lens 1 7"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "75dac94c",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_lens 1 8"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "72ca90b5",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_lens 1 9"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7300e886",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_lens 1 10"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7b64c679",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_lens 1 11"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "792bebd9",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_lens 1 12"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "49c64054",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_lens 1 13"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c25c4640",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_lens 1 14"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "35a8d5ce",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_lens 1 15"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Infinite Water",
+	x: 1.0d,
+	y: 2.0d,
+	text: [
+		"I totalllyyy didn't add EnderIO just for this one block.... Definitely not...",
+		"",
+		"Set these up directly next to your Steam Dynamo in a 2-block high, 2-block wide configuration.",
+		"Then, add 2 buckets of water. It should fill itself up after that.",
+		"",
+		"Lastly, using your Crescent Hammer, Right-Click the Endervoir block that is touching your Steam Dynamo. An arrow should appear on that block, and the Steam Dynamo should fill up with water.",
+		"",
+		"See Image."
+	],
+	dependencies: [
+		"fa21487d"
+	],
+	tasks: [{
+		uid: "63ac31bf",
+		type: "item",
+		items: [{
+			item: "enderio:block_reservoir"
+		}],
+		count: 4L
+	}]
+}

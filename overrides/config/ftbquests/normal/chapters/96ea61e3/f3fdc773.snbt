@@ -1,0 +1,43 @@
+{
+	title: "Getting Plugged",
+	x: 7.0d,
+	y: 0.0d,
+	shape: "heart",
+	text: [
+		"Flux Plugs and Flux Points add and remove RF to and from Flux Networks.",
+		"",
+		"Place a Flux Plug on something that generates RF. (Make sure you select your network after placing it down)",
+		"",
+		"Place a Flux Point on something that requires RF. (Make sure you select your network after placing it down)",
+		"",
+		"You can never have too many of these things."
+	],
+	dependencies: [
+		"8c3f72bf"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "f2b577e3",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxplug"
+		}]
+	},
+	{
+		uid: "ad4bc5d6",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxpoint"
+		}]
+	}],
+	rewards: [{
+		uid: "995cffff",
+		type: "item",
+		item: "fluxnetworks:fluxplug"
+	},
+	{
+		uid: "66b9014c",
+		type: "item",
+		item: "fluxnetworks:fluxpoint"
+	}]
+}

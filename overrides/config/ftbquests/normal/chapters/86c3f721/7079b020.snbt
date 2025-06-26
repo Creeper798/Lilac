@@ -1,0 +1,26 @@
+{
+	title: "Upgrading the Dynamo",
+	x: 6.0d,
+	y: 2.0d,
+	text: [
+		"The goal with upgrading Dynamos is making their fuel consumption more efficient.",
+		"This upgrade does that.",
+		"",
+		"The more you upgrade with Upgrade Kits, the more power it should be capable of producing as well. This maxes out at 120 RF/t."
+	],
+	dependencies: [
+		"007d301b"
+	],
+	tasks: [{
+		uid: "1b98c171",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 513"
+		}]
+	}],
+	rewards: [{
+		uid: "dd694113",
+		type: "item",
+		item: "thermalfoundation:upgrade"
+	}]
+}

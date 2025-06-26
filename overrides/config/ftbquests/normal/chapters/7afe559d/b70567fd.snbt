@@ -1,0 +1,19 @@
+{
+	title: "The Mining Dimension",
+	x: -2.0d,
+	y: -2.0d,
+	text: [
+		"This is covered in the \"Getting Started\" quest-line."
+	],
+	dependencies: [
+		"491babd4"
+	],
+	optional: true,
+	tasks: [{
+		uid: "34d9851d",
+		type: "item",
+		items: [{
+			item: "aroma1997sdimension:portalframe"
+		}]
+	}]
+}

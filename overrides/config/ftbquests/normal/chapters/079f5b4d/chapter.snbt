@@ -1,0 +1,32 @@
+{
+	title: "Laser Drill",
+	icon: "industrialforegoing:laser_drill",
+	description: [
+		"Infinite Ore"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 0.5d,
+		y: -5.0d,
+		width: 8.0d,
+		height: 8.0d,
+		rotation: 0.0d,
+		image: "lilac:images/quests/laser_drill.jpg",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 8.0d,
+		y: -5.0d,
+		width: 8.0d,
+		height: 8.0d,
+		rotation: 0.0d,
+		image: "lilac:images/quests/laser_base_output.jpg",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

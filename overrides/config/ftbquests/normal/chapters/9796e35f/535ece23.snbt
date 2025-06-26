@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"Servos are required to tell Itemducts/Fluiducts which direction to transfer what they're moving.",
+		"",
+		"You can apply a Servo to an Itemduct/Fluiduct by Right-Clicking a connection point of a duct with the Servo.",
+		"",
+		"By default, the Servo will not work unless it has a Redstone Signal applied to it. This is very lame.",
+		"",
+		"To solve this problem, you need to Right-Click the Servo, and modify the Redstone Control panel.",
+		"",
+		"See the images near this Quest for a walkthrough."
+	],
+	dependencies: [
+		"276c9ccf"
+	],
+	tasks: [{
+		uid: "dce17019",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:servo"
+		}]
+	}]
+}

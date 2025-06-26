@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Grid Power sucks, but it is a necessary evil for obtaining Creative Mode Flying.",
+		"",
+		"Everything you know about Redstone Flux does not apply to this. Grid Power is completely separate and has no overlap.",
+		"",
+		"Grid Power (GP) cannot be stored, it is constantly being generated in real-time. If you aren't generating enough GP for everything that is using GP then anything using GP will stop working.",
+		"If the GP is being generated in a Chunk that is not loaded then it is as if you are not generating GP at all."
+	],
+	tasks: [{
+		uid: "6bc1b637",
+		type: "checkmark",
+		title: "Grid Power (Intro)"
+	}],
+	rewards: [{
+		uid: "a8953d85",
+		type: "item",
+		item: "extrautils2:ingredients"
+	}]
+}

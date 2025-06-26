@@ -1,0 +1,27 @@
+{
+	x: 16.0d,
+	y: 4.5d,
+	text: [
+		"If you already have a Tome of Knowledge from an earlier quest, but it has XP in it which doesn't let you fulfill this quest, just empty it out on yourself, claim the reward and then fill it back up."
+	],
+	dependencies: [
+		"1b07c88d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "db0dbb94",
+		type: "item",
+		items: [{
+			id: "thermalfoundation:tome_experience",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e2d68c4e",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 16
+	}]
+}

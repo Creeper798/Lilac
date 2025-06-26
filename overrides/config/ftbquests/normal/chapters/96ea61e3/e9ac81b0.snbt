@@ -1,0 +1,29 @@
+{
+	title: "VERY OPTIONAL",
+	x: 5.0d,
+	y: -1.5d,
+	text: [
+		"I like upgrading the Shape Card to the Clearing Fortune Quarry.",
+		"",
+		"This just adds Fortune to anything you mine with the Builder.",
+		"Obviously not useful for Obsidian, but if you use the Builder for other things it can be very nice."
+	],
+	dependencies: [
+		"70a9361d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "bb831319",
+		type: "item",
+		items: [{
+			item: "rftools:shape_card 1 7"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3e83a03c",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 5
+	}]
+}

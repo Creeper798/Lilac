@@ -1,0 +1,25 @@
+{
+	title: "You'll need this",
+	x: 6.0d,
+	y: 0.5d,
+	text: [
+		"Keep chugging along, working towards the Atomic Disassembler. It will be worth it."
+	],
+	dependencies: [
+		"3dac4eec"
+	],
+	tasks: [{
+		uid: "a44eecf6",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "00afc20c",
+		type: "item",
+		item: "mekanism:enrichedalloy",
+		count: 4
+	}]
+}

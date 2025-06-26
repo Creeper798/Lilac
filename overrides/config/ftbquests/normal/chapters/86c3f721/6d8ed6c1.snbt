@@ -1,0 +1,28 @@
+{
+	title: "A note on power-based storage",
+	x: 8.0d,
+	y: 2.0d,
+	text: [
+		"As you move up the ranks in terms of Energy Production, you may start eyeing a Storage System.",
+		"",
+		"Keep your energy production in mind!",
+		"If you have a Storage System that relies on the energy you produce, and all your items are in this Storage System, what happens when your generators run out of fuel?",
+		"",
+		"In that scenario, your Storage System shuts down and you have no access to all your items. Including the fuel you need to the turn the power back on.",
+		"",
+		"Always always always have an off-the-grid chest containing backup fuel for scenarios like this. Don't touch the fuel in this backup unless you are completely out of power. "
+	],
+	dependencies: [
+		"7079b020"
+	],
+	tasks: [{
+		uid: "1406de91",
+		type: "checkmark",
+		title: "A Note on Power-based Storage"
+	}],
+	rewards: [{
+		uid: "ebfaa1ff",
+		type: "item",
+		item: "thermalfoundation:upgrade 1 1"
+	}]
+}

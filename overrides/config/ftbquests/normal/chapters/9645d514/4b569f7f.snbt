@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: -2.0d,
+	text: [
+		"Screens can display imgur images...",
+		"",
+		"Use this knowledge responsibly."
+	],
+	dependencies: [
+		"4abf6f8c"
+	],
+	tasks: [{
+		uid: "99fe96e2",
+		type: "item",
+		items: [{
+			item: "extrautils2:screen"
+		}]
+	}]
+}

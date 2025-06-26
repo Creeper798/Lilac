@@ -1,0 +1,1 @@
+ddd,dwd,ddd,d,minecraft:diamond,w,minecraft:wither_skeleton_skull

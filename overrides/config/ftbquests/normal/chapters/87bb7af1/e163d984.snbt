@@ -1,0 +1,14 @@
+{
+	title: "Tinkers' Armor",
+	x: 1.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "98232c09",
+		type: "item",
+		items: [{
+			item: "conarm:book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

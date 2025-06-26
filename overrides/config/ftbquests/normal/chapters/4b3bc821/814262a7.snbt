@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"Hang Gliders pair extremely well with the Slime Sling/Boots combo.",
+		"",
+		"Right Click while holding the Glider in-air to deploy it. While gliding, hold Crouch to travel (and descend) faster."
+	],
+	dependencies: [
+		"127949aa"
+	],
+	optional: true,
+	tasks: [{
+		uid: "9e79ec56",
+		type: "item",
+		items: [{
+			item: "openblocks:hang_glider"
+		}]
+	}]
+}

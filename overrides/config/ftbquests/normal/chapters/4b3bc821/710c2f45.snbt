@@ -1,0 +1,21 @@
+{
+	x: -5.0d,
+	y: 2.0d,
+	text: [
+		"By default, you can open the Map by pressing J.",
+		"",
+		"Take some time to explore the buttons in this UI, but first, notice the \"Waypoints...\" button on the far left of the bottom-middle button group.",
+		"This is where you can delete any accidentally added Waypoints, or change a Waypoint's name or color.",
+		"",
+		"By default, place a Waypoint by pressing B or clicking in the Map UI",
+		"I highly recommend setting waypoints for your home and for any Portal you go through.",
+		"",
+		"A Waypoint will be placed on your grave when you die."
+	],
+	optional: true,
+	tasks: [{
+		uid: "c163058e",
+		type: "checkmark",
+		title: "How to use the Minimap"
+	}]
+}

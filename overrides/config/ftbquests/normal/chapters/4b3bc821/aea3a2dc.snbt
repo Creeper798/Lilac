@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	text: [
+		"Excavators are Shovels on crack.",
+		"",
+		"They will mine a 3x3 area in the same amount of time that a regular Shovel will mine 1 block.",
+		"",
+		"Hold Crouch while digging with one to go back to mining a single block."
+	],
+	dependencies: [
+		"a8ca811b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "da91973a",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:tool.excavator_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

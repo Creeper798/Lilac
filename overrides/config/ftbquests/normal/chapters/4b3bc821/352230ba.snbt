@@ -1,0 +1,15 @@
+{
+	x: -5.0d,
+	y: -2.0d,
+	text: [
+		"Inventory Tweaks is installed in this Modpack. It allows you to assign a hotkey to sort all the contents of your inventory.",
+		"",
+		"By default this hotkey is R. It works whether you're in your Inventory or not."
+	],
+	optional: true,
+	tasks: [{
+		uid: "e47b2c74",
+		type: "checkmark",
+		title: "Inventory Sorting"
+	}]
+}

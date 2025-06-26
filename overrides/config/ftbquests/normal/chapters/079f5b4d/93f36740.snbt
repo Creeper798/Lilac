@@ -1,0 +1,32 @@
+{
+	title: "Yummy Yummy Meat Bucket™",
+	x: 5.0d,
+	y: 3.0d,
+	text: [
+		"The Meat Bucket™ is the end-game for food/saturation.",
+		"",
+		"Simply keep one of these handy Meat Buckets™ in your inventory at all times. When you get hungry, simply place the Liquid Meat™ out of the Bucket™ and bathe in its Saturating Flows™",
+		"",
+		"If you take damage, sit in the Meat™ for a while to let your saturation fill up and see your hearts regenerate in no time!",
+		"",
+		"Like other Liquid™, if you try to place the Liquid Meat™ in the Nether it will just disappear."
+	],
+	dependencies: [
+		"f1cd9184"
+	],
+	size: 2.0d,
+	optional: true,
+	tasks: [{
+		uid: "9ae9cd25",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "meat",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

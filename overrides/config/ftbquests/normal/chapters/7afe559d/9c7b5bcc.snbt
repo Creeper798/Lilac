@@ -1,0 +1,16 @@
+{
+	title: "The Deep Dark",
+	x: -2.0d,
+	y: 2.0d,
+	dependencies: [
+		"491babd4"
+	],
+	optional: true,
+	tasks: [{
+		uid: "48da226a",
+		type: "item",
+		items: [{
+			item: "extrautils2:teleporter 1 1"
+		}]
+	}]
+}

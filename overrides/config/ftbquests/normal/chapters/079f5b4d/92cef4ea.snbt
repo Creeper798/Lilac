@@ -1,0 +1,20 @@
+{
+	x: 2.5d,
+	y: 0.0d,
+	text: [
+		"This feels like a weird side quest, but trust me",
+		"",
+		"The goal here is to be able to produce Pink Slime effectively.",
+		"Pink Slime is used to craft a Laser Lens.",
+		"Laser Lenses are used to tell your Laser Drill which Ore you want to be mining.",
+		"More Info: https://ftb.fandom.com/wiki/Laser_Lens_(Industrial_Foregoing)"
+	],
+	dependencies: [
+		"8fce2fef"
+	],
+	tasks: [{
+		uid: "be430f6a",
+		type: "checkmark",
+		title: "Pink Slime (Intro)"
+	}]
+}

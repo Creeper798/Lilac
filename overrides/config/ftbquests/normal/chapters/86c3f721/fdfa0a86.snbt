@@ -1,0 +1,50 @@
+{
+	title: "Fancy Charger",
+	x: 12.0d,
+	y: 0.5d,
+	description: "Use this to charge your Atomic Disassembler",
+	text: [
+		"Hook this up to power and use it to charge any item or block that holds RF.",
+		"",
+		"You can upgrade this the same way as the other Thermal Expansion machines.",
+		"",
+		"The Atomic Disassembler stores a ton of energy, so upgrading this machine to decrease charge time is very helpful."
+	],
+	dependencies: [
+		"e8d897f3"
+	],
+	tasks: [{
+		uid: "6fd27b95",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 9s
+		}]
+	},
+	{
+		uid: "04edc80d",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 400"
+		}]
+	}],
+	rewards: [{
+		uid: "c8bbdf82",
+		type: "item",
+		item: "thermalfoundation:upgrade"
+	}]
+}

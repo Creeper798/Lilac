@@ -1,0 +1,29 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	text: [
+		"You need storage for Flux Networks to transfer any energy.",
+		"",
+		"Place this down, Right-Click it, click \"Please select a network\" and select your network.",
+		"",
+		"I recommend upgrading this as much as you can stand. It is useful for future projects."
+	],
+	dependencies: [
+		"84b13e59",
+		"70a9361d"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "5985b44a",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxstorage"
+		}]
+	}],
+	rewards: [{
+		uid: "29828fd9",
+		type: "item",
+		item: "fluxnetworks:flux",
+		count: 32
+	}]
+}

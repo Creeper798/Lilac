@@ -1,0 +1,28 @@
+{
+	x: 18.5d,
+	y: 4.5d,
+	text: [
+		"Getting Blizz Powder is also a pain in the ass.",
+		"",
+		"The best way to do this is to go the route of Fluid Transposing Snow Balls with XP",
+		"",
+		"Fill the Tome of Knowledge by Right-Clicking while holding it. Then, Right-Click an empty Fluid Transposer with the Tome to fill it with Liquid XP. Then, put snowballs in there."
+	],
+	dependencies: [
+		"d9011096"
+	],
+	optional: true,
+	tasks: [{
+		uid: "5fbc6236",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 2049"
+		}]
+	}],
+	rewards: [{
+		uid: "11aca54d",
+		type: "item",
+		item: "thermalfoundation:material 1 2049",
+		count: 8
+	}]
+}

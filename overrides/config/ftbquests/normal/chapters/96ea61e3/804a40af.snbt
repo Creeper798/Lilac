@@ -1,0 +1,37 @@
+{
+	title: "Wireless Item Transfer",
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"Ender Storage is a mod that improves the concept of Ender Chests.",
+		"",
+		"These Ender Chests are NOT player specific. Instead, they use the three colors on the top to indicate which chests it connects to.",
+		"Any chest with the same three colors will share that chest's inventory.",
+		"",
+		"While holding Dye, Right-Click a nub on the top of the chest to change it to that color.",
+		"",
+		"These are super useful for transfering items around without having to use Itemducts or other pipes."
+	],
+	tasks: [{
+		uid: "dd9ba848",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_storage"
+		}]
+	}],
+	rewards: [{
+		uid: "e5ca21c9",
+		type: "item",
+		item: "minecraft:dye 1 12"
+	},
+	{
+		uid: "57b817f9",
+		type: "item",
+		item: "minecraft:dye 1 9"
+	},
+	{
+		uid: "fdc7977b",
+		type: "item",
+		item: "biomesoplenty:white_dye"
+	}]
+}

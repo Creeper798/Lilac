@@ -1,0 +1,31 @@
+{
+	title: "Platinum",
+	x: 11.0d,
+	y: 4.5d,
+	description: "This takes some explaining",
+	text: [
+		"Okay, so, if I remember correctly, Platinum literally does not spawn in the world. Iridium may, but I don't think Platinum does; which leaves a few options for getting it.",
+		"",
+		"You can pulverize Nickel and there is a 10% chance it will also drop crushed Platinum. This is not a bad option, but Nickel can be tricky to find, and this is not very efficient.",
+		"",
+		"Alternatively, you can set up a Laser Drill, which, I believe, will end up finding Platinum because it functions by just spawning in Ore rather than mining it from the world. That is a complicated process, which will be laid out in another Quest Line",
+		"If you need a lot of Enderium, the investment in a Laser Drill makes more sense."
+	],
+	dependencies: [
+		"2582cfe6"
+	],
+	optional: true,
+	tasks: [{
+		uid: "00e09db0",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 70"
+		}]
+	}],
+	rewards: [{
+		uid: "eca6b826",
+		type: "item",
+		item: "thermalfoundation:material 1 70",
+		count: 8
+	}]
+}

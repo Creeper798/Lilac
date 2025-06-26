@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"YouTube and Google are your friends.",
+		"",
+		"This video is all you need to know.",
+		"youtube.com/watch?v=UF2sZ3Td8io",
+		"",
+		"Talk to Creeper if you need help."
+	],
+	tasks: [{
+		uid: "87d4b700",
+		type: "checkmark"
+	}]
+}

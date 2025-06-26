@@ -1,0 +1,34 @@
+{
+	title: "Managing XP",
+	x: 2.0d,
+	y: -2.0d,
+	text: [
+		"Minecraft's XP system is frustrating.",
+		"",
+		"As you gain XP in Minecraft, your XP bar will fill up and add numeric levels.",
+		"As you gain more XP, the numeric levels grow at an increasingly slower rate. Meaning getting from level 0 to level 5 is much faster and requires less xp than getting from level 30 to level 35.",
+		"",
+		"Despite XP being harder to collect at higher levels, things that require XP (Like Enchantments, and Waystone traveling) go off of the Numeric XP levels.",
+		"This means that the 2 Levels of XP you use to Waystone travel are much more expensive when you have 30 levels compared to when you have 5.",
+		"",
+		"The Tome of Knowledge gets around this issue and will save you an unspeakable amount of XP throughout your playthrough.",
+		"",
+		"TLDR:",
+		"Right-Click while holding the Tome to fill it with XP. Crouch-Right-Click it to take XP out of it.",
+		"I highly recommend constantly emptying your XP into a Tome, and only unloading the exact amount of XP you need when you want to spend it on something."
+	],
+	dependencies: [
+		"dedcba6d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "56af272c",
+		type: "item",
+		items: [{
+			id: "thermalfoundation:tome_experience",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

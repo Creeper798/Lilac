@@ -1,0 +1,7 @@
+{
+	title: "Networking",
+	icon: "fluxnetworks:fluxplug",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

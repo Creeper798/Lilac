@@ -1,0 +1,23 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	text: [
+		"We're close to full flying now!",
+		"",
+		"The Chicken Ring sucks, it is only used to craft the rings we're trying to get to.",
+		"",
+		"Keep Rings in your inventory to activate whatever special power they give you."
+	],
+	dependencies: [
+		"ce4ebc14"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "ecf2ac1a",
+		type: "item",
+		items: [{
+			item: "extrautils2:chickenring"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Basic Redstone Flux",
+	icon: {
+		id: "mekanism:atomicdisassembler",
+		tag: {
+			mekData: {
+				energyStored: 1000000.0d
+			}
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 3.5d,
+		y: 2.5d,
+		width: 3.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "lilac:images/quests/steam_dynamo.jpg",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

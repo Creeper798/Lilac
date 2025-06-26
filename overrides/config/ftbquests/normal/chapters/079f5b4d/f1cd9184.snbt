@@ -1,0 +1,32 @@
+{
+	title: "Mob Grinder",
+	x: 5.0d,
+	y: 0.0d,
+	text: [
+		"Set this Mob Grinder up in front of some mobs, apply the Range Addon, supply it with power and wait for it to kill things. The internal tanks will fill up with Liquid Meat and Pink Slime.",
+		"",
+		"I recommend attaching pipes to Black Hole Tanks to fill them with the excess fluid.",
+		"",
+		"I highly recommend having a Flux Network set up and setting one of these up in the End. Hide behind it with a 2-block-tall ledge above your head, and stare at endermen to lure them into the range of the Grinder.",
+		"",
+		"If you have an Endermen farm set up already, just set one of these up facing that and go AFK for a bit."
+	],
+	dependencies: [
+		"92cef4ea"
+	],
+	tasks: [{
+		uid: "87d681a3",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_slaughter_factory"
+		}]
+	},
+	{
+		uid: "20c38cad",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:range_addon 1 11"
+		}],
+		ignore_nbt: 1b
+	}]
+}

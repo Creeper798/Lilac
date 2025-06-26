@@ -1,0 +1,21 @@
+{
+	title: "Finding Biomes",
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"A Nature's Compass will direct you to any biome that you want. ",
+		"",
+		"Right-Click it to bring up a menu of biomes. Select one to set the compass to point towards it."
+	],
+	dependencies: [
+		"a8ca811b"
+	],
+	tasks: [{
+		uid: "05cb1683",
+		type: "item",
+		items: [{
+			id: "naturescompass:naturescompass",
+			tag: {}
+		}]
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "OPTIONAL",
+	x: 3.0d,
+	y: -1.5d,
+	description: "Expanding your network storage",
+	text: [
+		"THIS WILL ONLY WORK AFTER YOU HAVE A FLUX NETWORK SET UP.",
+		"",
+		"Flux networks suck unless you have an Enderman Farm and a copius amount of Obsidian. This will help with one of those requirements.",
+		"",
+		"Contrary to what the name suggests, a Builder with a Clearing Shape Card is the best way to mine a very large area.",
+		"This is too much to explain how to use (Use Youtube and msg Creeper if you need help :]), but I will mention a couple things specifically for this setup.",
+		"",
+		"To aid in collecting Obsidian, I recommend setting this builder up in the End. (Which is why you need a working Flux Network).",
+		"Outputting to a Diamond Chest, or an Ender Chest are both good options.",
+		"",
+		"If no one is in the End, then the chunk the Builder is in will not load and it will stop working. Either stay in the End while it's working, or msg Creeper on how to keep Chunks loaded in this modpack."
+	],
+	dependencies: [
+		"84b13e59"
+	],
+	optional: true,
+	tasks: [{
+		uid: "5f8c861c",
+		type: "item",
+		items: [{
+			item: "rftools:builder"
+		}]
+	},
+	{
+		uid: "841eb9c6",
+		type: "item",
+		items: [{
+			item: "rftools:shape_card 1 5"
+		}],
+		ignore_nbt: 1b
+	}]
+}

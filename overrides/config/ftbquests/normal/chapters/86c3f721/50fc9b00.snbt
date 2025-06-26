@@ -1,0 +1,62 @@
+{
+	title: "Getting Heated",
+	x: -1.0d,
+	y: 0.5d,
+	text: [
+		"Using the Fluxducts, connect these machines to the Coal Generator to supply them with power. Place your Ore in the Pulverizer and have the Pulverizer output to the Redstone Furnace to get 2x ingots per ore.",
+		"",
+		"https://technicpack.fandom.com/wiki/Thermal_Expansion_GUI#Inventory_Slots"
+	],
+	dependencies: [
+		"16d751eb"
+	],
+	tasks: [{
+		uid: "427b0cae",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			}
+		}]
+	},
+	{
+		uid: "d6f6bab2",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "02646514",
+		type: "item",
+		item: "thermaldynamics:duct_0",
+		count: 6
+	}]
+}

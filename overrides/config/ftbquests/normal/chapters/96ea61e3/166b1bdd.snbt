@@ -1,0 +1,21 @@
+{
+	x: 6.0d,
+	y: 2.0d,
+	dependencies: [
+		"b681a3e2"
+	],
+	optional: true,
+	tasks: [{
+		uid: "83f4e5a6",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:gargantuanfluxstorage"
+		}]
+	}],
+	rewards: [{
+		uid: "d146dcce",
+		type: "item",
+		item: "fluxnetworks:fluxblock",
+		count: 32
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Getting started with GP",
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"Place the Resonator down and place the Manual Mill on top of it.",
+		"",
+		"Right-Click the Manual Mill to start cranking it. This will generate some GP and it will power the Resonator. Once you start cranking, you no longer have to hold Right-Click.",
+		"",
+		"Make some Stoneburnt. You will need it for the Water Mill in the next Quest."
+	],
+	dependencies: [
+		"aab9211c"
+	],
+	tasks: [{
+		uid: "d4bbff87",
+		type: "item",
+		items: [{
+			item: "extrautils2:resonator"
+		}]
+	},
+	{
+		uid: "f62551cb",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "57718634",
+		type: "item",
+		item: "minecraft:stonebrick",
+		count: 16
+	}]
+}

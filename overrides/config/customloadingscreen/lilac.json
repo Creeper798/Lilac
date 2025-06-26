@@ -1,0 +1,50 @@
+{
+  "renders": [
+    {
+        "image": {
+            "parent": "sample/flat_background",
+            "image": "lilac:images/menu/Lilac_Background_Night_SuperBright.png"
+        }
+    },
+    "sample/loading_bar_boss",
+    "sample/loading_bar_boss_percentage",
+    {
+      "image": {
+        "parent": "sample/text_status",
+        "colour":"0xFF_A8_A6_D1",
+        "position": {
+          "x": "0",
+          "y": "40",
+          "width": "0",
+          "height": "0"
+        }
+      }
+    },
+    {
+      "image": {
+        "parent": "sample/text_sub_status",
+        "colour":"0xFF_A8_A6_D1"
+      }
+    },
+    {
+      "image": {
+        "parent": "sample/text_percentage",
+        "colour":"0xFF_A8_A6_D1",
+        "position": {
+          "x": "0",
+          "y": "30",
+          "width": "0",
+          "height": "0"
+        }
+      }
+    }
+  ],
+  "functions": [
+  ],
+  "factories": [
+  ],
+  "actions": [
+  ],
+  "variables": {
+  }
+}

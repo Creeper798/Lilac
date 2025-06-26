@@ -1,0 +1,146 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "lilac:images/menu/Lilac_Logo.png",
+            "posX" : -102,
+            "posY" : 34,
+            "width" : 192,
+            "height" : 96,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            },
+            "texture":"lilac:images/menu/Lilac_Button_Normal.png"
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            },
+            "texture":"lilac:images/menu/Lilac_Button_Normal.png"
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            },
+            "texture":"lilac:images/menu/Lilac_Button_Normal.png"
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            },
+            "imageWidth":200,
+            "imageHeight":20,
+            "texture":"lilac:images/menu/Lilac_Button_Normal.png"
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 2,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            },
+            "imageWidth":200,
+            "imageHeight":20,
+            "texture":"lilac:images/menu/Lilac_Button_Normal.png"
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "hoverText" : "Language",
+            "posX" : -35,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            },
+            "texture":"lilac:images/menu/Lilac_Button_Language.png",
+            "alignment" : "bottom_right"
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!\n(c) 1998 The Learning Company, Inc. and its licensors.",
+            "posX" : 2,
+            "posY" : -20,
+            "color" : -1,
+            "alignment" : "bottom_left",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 90,
+            "posY" : 96,
+            "color" : -128,
+            "alignment" : "top_center",
+            "texts" : "file:lilac:splashes.txt"
+        },
+
+        "background":
+        {
+            "image": "lilac:images/menu/Lilac_Background.png",
+            "mode" : "fill"
+        }
+    }
+}

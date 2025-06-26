@@ -1,0 +1,27 @@
+{
+	title: "Getting Started",
+	x: -3.0d,
+	y: 0.5d,
+	text: [
+		"Almost everything runs on units of energy called Redstone Flux (RF). This generator is not very good, but it is cheap and will last a good while before you need to upgrade.",
+		"",
+		"Note: There are other units of Energy used by other mods. There will always be a way to convert to and from RF, so we use this as our standard.",
+		"www.xkcd.com/927/",
+		"",
+		"Extra Info:",
+		"Generators are ranked based on how much RF they generate per Tick (Minecraft's unit of Time). You will see this written as 60 RF/t (for example). The bigger the number, the better the generator."
+	],
+	tasks: [{
+		uid: "67bc78da",
+		type: "item",
+		items: [{
+			item: "rftools:coalgenerator"
+		}]
+	}],
+	rewards: [{
+		uid: "4691a953",
+		type: "item",
+		item: "minecraft:coal",
+		count: 32
+	}]
+}

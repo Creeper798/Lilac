@@ -1,0 +1,31 @@
+{
+	x: 1.0d,
+	y: 2.0d,
+	text: [
+		"Itemducts are used to transport items.",
+		"",
+		"They are pipes that connect storage containers, or machines that have internal storage.",
+		"",
+		"Opaque Itemducts are easier to make, but regular Itemducts let you see the items as they move.",
+		"",
+		"Similarly to Fluxducts, there are different levels of Itemducts that increase the item transfer rate."
+	],
+	dependencies: [
+		"276c9ccf"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "e3d08929",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_32"
+		}]
+	},
+	{
+		uid: "7f4c8374",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_32 1 1"
+		}]
+	}]
+}

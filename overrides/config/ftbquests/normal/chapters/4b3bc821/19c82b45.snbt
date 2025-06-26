@@ -1,0 +1,25 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	text: [
+		"JEI stands for Just Enough Items. It is the 1.12.2 replacement for Too Many Items.",
+		"",
+		"When you open your inventory, the menu on the right side that has all of the items in the game is JEI.",
+		"",
+		"You can search this list at the top. You can search by Modpack using @modpack. Try this out with @minecraft to see all Vanilla items.",
+		"",
+		"Clicking on an item in this menu will bring up methods that you can use to obtain that item. If it's an Ore, it will usually show you where it spawns or how to obtain it using a modded mining system.",
+		"",
+		"At the top of the popup will be buttons to show you different ways to obtain the item. It's good practice to cycle through these to find the easiest recipe whenever you're trying to make something.",
+		"",
+		"If you're crafting something complicated (@AppliedEnergistics2), the crafting recipe will have multiple layers. Clicking on items in the recipe will bring up their recipes.",
+		"",
+		"Lastly, if you're looking at a crafting recipe while in a Crafting Table, you can hover over the little '?' icon to see which items you're missing. ",
+		"If you have all the items to satisfy the crafting recipe you can press this button to auto-fill the Crafting Table."
+	],
+	tasks: [{
+		uid: "9e859e9d",
+		type: "checkmark",
+		title: "How to use JEI"
+	}]
+}

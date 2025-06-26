@@ -1,0 +1,24 @@
+{
+	title: "Keeping GP Chunks Loaded",
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		"Remember how I said if you leave the Chunk that GP is being Generated in it will stop generating GP?",
+		"Well, this really sucks if you're flying like 100 blocks in the air and suddenly you start falling out of the sky because your Water Mills are in a different Chunk that is no longer loaded.",
+		"Don't ask me how I know.",
+		"",
+		"You'll need to use FTB Utils' Chunk Claiming system in order to keep your GP chunk loaded.",
+		"The reason I'm not going to outline how to do that here is because we need to really limit how many Chunks we're keeping loaded at a time.",
+		"If we have a ton of Chunks constantly loaded, then the Server will start lagging very quickly.",
+		"",
+		"Please speak to Creeper any time you need a Chunk to stay loaded."
+	],
+	dependencies: [
+		"4abf6f8c"
+	],
+	tasks: [{
+		uid: "7666c3ac",
+		type: "checkmark",
+		title: "Keeping GP in other Dimensions"
+	}]
+}

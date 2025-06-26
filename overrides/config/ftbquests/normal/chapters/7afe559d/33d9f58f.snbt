@@ -1,0 +1,27 @@
+{
+	title: "The Aether",
+	icon: "aether_legacy:golden_oak_sapling",
+	x: 2.0d,
+	y: 2.0d,
+	dependencies: [
+		"491babd4"
+	],
+	optional: true,
+	tasks: [{
+		uid: "790c29ad",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone"
+		}],
+		count: 10L
+	},
+	{
+		uid: "161e9fc3",
+		type: "item",
+		items: [{
+			item: "minecraft:water_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

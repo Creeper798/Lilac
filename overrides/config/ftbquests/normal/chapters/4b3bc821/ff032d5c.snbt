@@ -1,0 +1,21 @@
+{
+	title: "Transporting Mobs",
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"You have to make one of these in a standard Crafting Table or Crafting Station. It will use 8 XP when you do.",
+		"",
+		"Right-Click a mob with this item to store it in the lasso. Then, Right-Click where you want to place it down."
+	],
+	dependencies: [
+		"a8ca811b"
+	],
+	tasks: [{
+		uid: "70c8faaf",
+		type: "item",
+		items: [{
+			item: "extrautils2:goldenlasso"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	text: [
+		"Ender Pouches are items that connect to Ender Chests and allow you to access them directly by Right-Clicking.",
+		"",
+		"While holding an Ender Pouch, Crouch-Right-Click an Ender Chest to link it to all chests of that color code.",
+		"",
+		"A good use for these is to connect to a chest that automatically empties to a Storage System, so you can send stuff back to your base while mining.",
+		"If you're playing with a buddy, keep one linked where you can transfer items that you may have forgotten and don't want to go back home for."
+	],
+	dependencies: [
+		"804a40af"
+	],
+	tasks: [{
+		uid: "81759ff4",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_pouch"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

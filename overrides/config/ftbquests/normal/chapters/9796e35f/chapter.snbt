@@ -1,0 +1,40 @@
+{
+	title: "Servos/Itemducts/Fluiducts",
+	icon: "thermaldynamics:duct_32",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 2.0d,
+		y: -4.0d,
+		width: 6.0d,
+		height: 6.0d,
+		rotation: 0.0d,
+		image: "lilac:images/quests/servo_deactivated.jpg",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 7.5d,
+		y: -4.0d,
+		width: 6.0d,
+		height: 6.0d,
+		rotation: 0.0d,
+		image: "lilac:images/quests/servo_ui.jpg",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 13.0d,
+		y: -4.0d,
+		width: 6.0d,
+		height: 6.0d,
+		rotation: 0.0d,
+		image: "lilac:images/quests/servo_activated.jpg",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

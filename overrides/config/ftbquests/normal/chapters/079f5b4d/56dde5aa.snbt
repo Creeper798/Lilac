@@ -1,0 +1,43 @@
+{
+	title: "Fucking Plastic...",
+	x: 10.0d,
+	y: 0.0d,
+	text: [
+		"Plastic is by far my least favorite part of any mod ever made.",
+		"",
+		"The Tree Fluid Extractor needs to be set up facing a Log from Vanilla Minecraft. It doesn't need power, and it will produce Latex. Pipe this into a Latex Processing Unit (Which does need power), supply the Processing Unit with some Water",
+		"(Right-Click with a bucket, or pipe it in) and wait for it to produce Tiny Dry Rubber.",
+		"",
+		"Craft the Tiny Dry Rubber into Dry Rubber, then Smelt it to get Plastic.",
+		"",
+		"It's tedious and it sucks, but you can automate most of this process if you need a lot of Rubber."
+	],
+	dependencies: [
+		"7f32b082"
+	],
+	tasks: [{
+		uid: "865d8bcc",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:tree_fluid_extractor"
+		}]
+	},
+	{
+		uid: "2b45073d",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:latex_processing_unit"
+		}]
+	}],
+	rewards: [{
+		uid: "edf56f41",
+		type: "item",
+		item: "thermaldynamics:duct_16",
+		count: 8
+	},
+	{
+		uid: "bf1a9f9f",
+		type: "item",
+		item: "thermaldynamics:servo"
+	}]
+}

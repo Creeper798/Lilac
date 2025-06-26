@@ -1,0 +1,48 @@
+{
+	title: "Energy Storage",
+	x: -1.0d,
+	y: -2.0d,
+	text: [
+		"Having a reservoir of energy can be really nice if your generators constantly fill up their internal energy storage.",
+		"",
+		"These can be configured the same way as the Thermal Expansion machines, you can specify a side to be only input or only output. Hook these up with Fluxducts to route power where you need it.",
+		"",
+		"kRF stands for Kilo Redstone Flux (1000 RF)"
+	],
+	dependencies: [
+		"16d751eb"
+	],
+	optional: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "eae1f5a2",
+		type: "item",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 0
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8bcc1469",
+		type: "item",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 0,
+				mekData: {
+					energyStored: 2000000.0d
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2cf841e7",
+		type: "item",
+		item: "thermaldynamics:duct_0",
+		count: 16
+	}]
+}

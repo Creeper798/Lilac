@@ -1,0 +1,28 @@
+{
+	title: "The Mining Dimension",
+	x: 0.0d,
+	y: -4.0d,
+	text: [
+		"The Mining Dimension is the best way to Peacefully mine in this Modpack.",
+		"",
+		"The dimension is a Superflat world with cave entrances on the surface. Mobs do not spawn naturally in this dimension; neither on the surface nor in caves. The only time Mobs will spawn is from a Mob Spawner (so be careful in Mineshafts)"
+	],
+	dependencies: [
+		"a8ca811b"
+	],
+	tasks: [{
+		uid: "ceada148",
+		type: "item",
+		items: [{
+			item: "aroma1997sdimension:miningmultitool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "da3d61a7",
+		type: "item",
+		item: "minecraft:stonebrick",
+		count: 4
+	}]
+}

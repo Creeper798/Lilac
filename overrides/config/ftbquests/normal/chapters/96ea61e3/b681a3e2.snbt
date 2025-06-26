@@ -1,0 +1,21 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	dependencies: [
+		"8c3f72bf"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f6acda7f",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:herculeanfluxstorage"
+		}]
+	}],
+	rewards: [{
+		uid: "2c99a602",
+		type: "item",
+		item: "fluxnetworks:flux",
+		count: 64
+	}]
+}

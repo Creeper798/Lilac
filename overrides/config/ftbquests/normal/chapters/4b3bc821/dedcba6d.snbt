@@ -1,0 +1,30 @@
+{
+	title: "Teleporting Around",
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"Waystones are points that you can teleport to and from. If you see one in a village, break it with your Pickaxe and claim this quest.",
+		"",
+		"Place a Waystone down in an important location, then Right-Click it and name it appropriately. Any player that comes across it can Right-Click to register it among their known locations.",
+		"",
+		"Once a Waystone is set up and you have registered it, when you Right-Click it you will see a menu of all your registered locations that you can spend XP to teleport to.",
+		"",
+		"Usually, we like to have at least one of these in every base to make traveling easier. If possible, having one at the End Fortress and any other noteworthy location is extremely preferable."
+	],
+	dependencies: [
+		"a8ca811b"
+	],
+	tasks: [{
+		uid: "9964c1eb",
+		type: "item",
+		items: [{
+			item: "waystones:waystone"
+		}]
+	}],
+	rewards: [{
+		uid: "3199b4a6",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 16
+	}]
+}

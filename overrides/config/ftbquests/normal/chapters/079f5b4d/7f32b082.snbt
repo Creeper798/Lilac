@@ -1,0 +1,25 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	text: [
+		":O Congrats!! You got the Liquid form of Pink Slime!",
+		"",
+		"Keep this in a safe place. We need a couple more things before we use it."
+	],
+	dependencies: [
+		"f1cd9184"
+	],
+	tasks: [{
+		uid: "d8645f64",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "if.pink_slime",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

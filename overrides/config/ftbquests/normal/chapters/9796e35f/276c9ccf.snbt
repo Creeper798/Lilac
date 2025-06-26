@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Itemducts and Fluiducts are used to transfer items and fluids.",
+		"",
+		"These work the same way as Fluxducts, with one very notable difference.",
+		"In order to tell the Itemduct/Fluiduct which way to transfer items, you need to use a Servo.",
+		"",
+		"If you're new to Modded Minecraft, Servos can be very confusing because they oftentimes don't work out of the box.",
+		"",
+		"This small questline is meant to get you up to speed on a couple basics for using these ducts."
+	],
+	tasks: [{
+		uid: "4f2aa43e",
+		type: "checkmark",
+		title: "How to Transfer Items/Fluids"
+	}]
+}

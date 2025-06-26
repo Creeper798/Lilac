@@ -1,0 +1,46 @@
+{
+	title: "More Energy Storage",
+	x: 1.0d,
+	y: -2.0d,
+	text: [
+		"You really don't need to store a whole lot more than this, but I can't stop you ¯\\_(ツ)_/¯",
+		"",
+		"MRF stands for Mega Redstone Flux (1,000,000 RF)"
+	],
+	dependencies: [
+		"d2a947bd"
+	],
+	optional: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "1aca3092",
+		type: "item",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 1
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a7dc58c3",
+		type: "item",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 1,
+				mekData: {
+					energyStored: 8000000.0d
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "913ba8dc",
+		type: "item",
+		item: "thermaldynamics:duct_0",
+		count: 32
+	}]
+}

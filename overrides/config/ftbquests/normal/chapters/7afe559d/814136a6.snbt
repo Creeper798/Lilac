@@ -1,0 +1,16 @@
+{
+	title: "Simple Void World",
+	x: -2.0d,
+	y: 0.0d,
+	dependencies: [
+		"491babd4"
+	],
+	optional: true,
+	tasks: [{
+		uid: "5a3c401f",
+		type: "item",
+		items: [{
+			item: "simplevoidworld:portal"
+		}]
+	}]
+}

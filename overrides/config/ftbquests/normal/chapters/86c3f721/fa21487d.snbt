@@ -1,0 +1,43 @@
+{
+	title: "Need More Power?",
+	x: -1.0d,
+	y: 2.0d,
+	description: "120 RF/t Per maxed-out Dynamo",
+	text: [
+		"I'll be real, I don't know of a good intermediate step from a Coal Generator to a full-scale Reactor for power generation.",
+		"",
+		"If you need more power output, this is my best guess for how to achieve something somewhat scalable.",
+		"",
+		"A Steam Dynamo takes coal, like the Coal Generator, but also requires water.",
+		"",
+		"We're going to upgrade this as much as possible, make a system for easy infinite water, and we're going to need the Crescent Hammer for a few things, so have that handy.",
+		"",
+		"NOTE: The next part requires either Fused Quartz or Hardened Glass.",
+		"If you're planning to do the Fluxduct quest-line, you will end up making an Induction Smelter (for Hardened Glass). If you haven't yet, you have the option to make an Alloy Smelter (for Fused Quartz)",
+		"Both are good to have. If you plan on doing more EnderIO, you'll need an Alloy Smelter eventually."
+	],
+	dependencies: [
+		"16d751eb"
+	],
+	tasks: [{
+		uid: "fa1b0e14",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	},
+	{
+		uid: "b6cf029d",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:wrench"
+		}],
+		ignore_nbt: 1b
+	}]
+}

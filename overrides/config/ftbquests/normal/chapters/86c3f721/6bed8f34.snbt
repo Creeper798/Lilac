@@ -1,0 +1,40 @@
+{
+	title: "Well you did it. Congratulations. Was it worth it?",
+	x: 6.5d,
+	y: -2.0d,
+	shape: "square",
+	text: [
+		"Because despite your violent behavior, the only thing you've managed to break so far.. is my heart."
+	],
+	dependencies: [
+		"8554a3d9"
+	],
+	hide: true,
+	size: 2.0d,
+	or_tasks: true,
+	tasks: [{
+		uid: "c0e19e3f",
+		type: "item",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 3
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "826b1243",
+		type: "item",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 3,
+				mekData: {
+					energyStored: 1.28E8d
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

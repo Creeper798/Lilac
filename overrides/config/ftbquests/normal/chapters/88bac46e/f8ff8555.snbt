@@ -1,0 +1,26 @@
+{
+	title: "Don't Use Gelid Cryotheum",
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"Cryotheum is too hard to get, and it really doesn't improve things unless you're trying to get ridiculous amounts of power.",
+		"",
+		"Use Resonant Ender."
+	],
+	dependencies: [
+		"54375588"
+	],
+	tasks: [{
+		uid: "216848f2",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "ender",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

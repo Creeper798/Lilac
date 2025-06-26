@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"This is where you set up your Network. I recommend keeping it private so that other people can't steal your RF.",
+		"",
+		"Place the Controller somewhere safe (away from other players), Right-Click it and click the Plus button at the Top Right of the UI to create your network.",
+		"",
+		"Change Energy Type to Redstone Flux, set the color to whatever you want and create the network.",
+		"Note: Once the network is created, it will not automatically select itself. You need to click the network you just created to set the Controller to use that network."
+	],
+	dependencies: [
+		"b8c8a33c"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "310ea4e1",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxcontroller"
+		}]
+	}]
+}

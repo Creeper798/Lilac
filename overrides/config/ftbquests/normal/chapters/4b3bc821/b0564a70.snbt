@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 8.0d,
+	text: [
+		"Snad is one of the best mods ever made.",
+		"",
+		"Snad works exactly like vanilla Sand, except that when a Redstone signal is applied it will increase the growth rate of anything planted on it.",
+		"",
+		"If you need a ton of Cactus or Sugar Cane, place it on snad and spam a Redstone signal.",
+		"",
+		"The best way to maximize this is to set up a Computer Craft terminal to output a Redstone Signal rapidly, and then have a Mining Turtle mine it as it grows."
+	],
+	dependencies: [
+		"a8ca811b"
+	],
+	tasks: [{
+		uid: "1396b245",
+		type: "item",
+		items: [{
+			item: "snad:snad"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"This is not a normal quest-line.",
+		"",
+		"This page is meant to be a dictionary of the available Dimensions we have in this Modpack.",
+		"",
+		"If you want to know how to enter one of these Dimensions, you'll have to do some research online or ask Creeper.",
+		"",
+		"Please keep in mind, some Dimensions (Twilight Forest) are set up to be completed by mainly one person. It can be hard if someone else wants to complete it after someone has completed all the nearby bosses.",
+		"If Dimensions are your thing and you're super hyped for one in particular then go for it. Otherwise, try to buddy up and complete them with other people."
+	],
+	tasks: [{
+		uid: "bfb38a01",
+		type: "checkmark",
+		title: "Dimensions (Intro)"
+	}]
+}

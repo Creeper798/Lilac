@@ -1,0 +1,18 @@
+{
+	title: "Creative Mode Flying",
+	icon: "extrautils2:angelring 1 4",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 4.0d,
+		y: 3.0d,
+		width: 4.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "lilac:images/quests/water_mills.jpg",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

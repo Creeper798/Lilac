@@ -1,0 +1,23 @@
+{
+	title: "Entering the Mining Dimension",
+	x: 2.0d,
+	y: -4.0d,
+	text: [
+		"To create a Portal to the Mining Dimension, use these Portal Frames to make a Nether Portal shape. Then, activate it by Right-Clicking it with the Mining Multitool.",
+		"",
+		"To go through the Portal, get within its bounds and Crouch.",
+		"",
+		"I highly recommend setting a Waypoint on your Minimap as soon as you go through any Portal (B)"
+	],
+	dependencies: [
+		"f018b38f"
+	],
+	tasks: [{
+		uid: "01c57df2",
+		type: "item",
+		items: [{
+			item: "aroma1997sdimension:portalframe"
+		}],
+		count: 10L
+	}]
+}
