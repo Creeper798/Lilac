@@ -34,7 +34,7 @@ Lilac features a Quest system to help introduce new players to Modded concepts a
 
 
 
-### How to Download
+## How to Download
 
 * Go to the Releases page of this Repo
   
@@ -48,7 +48,7 @@ Lilac features a Quest system to help introduce new players to Modded concepts a
 
 
 
-### How to Install
+## How to Install
 
 * Download the CurseForge Desktop App.
   
