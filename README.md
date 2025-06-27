@@ -1,5 +1,3 @@
-# Lilac
-
 ![](readme_images/readmeHeader.png)
 
 
