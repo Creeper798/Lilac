@@ -1,14 +1,18 @@
-![](readme_images/readmeHeader.png)
+![](readme_images/readmeHeader.png) 
+
+---
 
 ### Overview
 
 Lilac is a Minecraft 1.12.2 Tech Modpack.
 
+---
+
 ### Highlights
 
-##### Mods
+**Mods**
 
-**Tech**
+Tech
 
 - Applied Energistics 2
 
@@ -29,7 +33,7 @@ Lilac is a Minecraft 1.12.2 Tech Modpack.
 
 * Mekanism [Slightly nerfed version]
 
-**Dimensions**
+Dimensions
 
 - Aether
 
@@ -39,7 +43,7 @@ Lilac is a Minecraft 1.12.2 Tech Modpack.
 
 - Twilight Forest
 
-**Misc.**
+Misc.
 
 * Chisel
 
@@ -55,21 +59,25 @@ Lilac is a Minecraft 1.12.2 Tech Modpack.
 
 * Tinkers' Construct
 
-##### Quests
+**Quests**
 
 Lilac features a very simple, non-extensive Quest system to help introduce new players to Modded concepts and specific mods in this pack.
 
 ![](readme_images/readmeQuests.png)
 
-##### Server
+**Server**
 
 I will be hosting a private server running this modpack instance for an undefined amount of time. Feel free to join!
 
 Message Creeper if you need the IP or have issues joining.
 
+---
+
 ### Minimum Requirements
 
 6 GB Deditated Ram
+
+---
 
 ### How to Download
 
@@ -80,6 +88,8 @@ Message Creeper if you need the IP or have issues joining.
 * Find the latest release, and Left-Click the .zip file under "Assets" to download it
 
 ![](readme_images/readmeDownload.png)
+
+---
 
 ### How to Install
 
@@ -99,6 +109,8 @@ Message Creeper if you need the IP or have issues joining.
 
 Once the Modpack finishes downloading, you should be able to launch it by clicking "Play" on the instance.
 
-**Optional**
+---
+
+### Optional
 
 You can increase the amount of deditated RAM by Right-Clicking the instance and selecting "Profile Options".
