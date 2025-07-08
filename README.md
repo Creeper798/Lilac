@@ -2,37 +2,76 @@
 
 ![](readme_images/readmeHeader.png)
 
-
-
 ### Overview
 
 Lilac is a Minecraft 1.12.2 Tech Modpack.
 
+### Highlights
 
+##### Mods
 
-**Server**
+**Tech**
 
-I will be hosting a private server running this modpack instance for an undefined amount of time. Feel free to join!
+- Applied Energistics 2
 
-The server should already be listed in the Multiplayer menu. Message Creeper if you have issues joining or need the IP.
+- Computer Craft: Tweaked
+* Draconic Evolution
 
+* Extreme Reactors
 
+* EnderIO
 
-**Quests**
+* Environmental Tech
 
-Lilac features a Quest system to help introduce new players to Modded concepts and specific mods in this pack.
+* Galacticraft
+
+* Industrial Foregoing
+
+* Thermal Dynamics
+
+* Mekanism [Slightly nerfed version]
+
+**Dimensions**
+
+- Aether
+
+- Galacticraft
+
+- Mining Dimension (Aroma1997's Dimensional World)
+
+- Twilight Forest
+
+**Misc.**
+
+* Chisel
+
+* Ender Storage
+
+* Iron Chests
+
+* Lucky Blocks
+
+* OpenBlocks
+
+* Simple Voice Chat
+
+* Tinkers' Construct
+
+##### Quests
+
+Lilac features a very simple, non-extensive Quest system to help introduce new players to Modded concepts and specific mods in this pack.
 
 ![](readme_images/readmeQuests.png)
 
+##### Server
 
+I will be hosting a private server running this modpack instance for an undefined amount of time. Feel free to join!
 
-**Minimum Requirements**
+Message Creeper if you need the IP or have issues joining.
+
+### Minimum Requirements
 
 6 GB Deditated Ram
-
-
-
-
 
 ### How to Download
 
@@ -44,10 +83,6 @@ Lilac features a Quest system to help introduce new players to Modded concepts a
 
 ![](readme_images/readmeDownload.png)
 
-
-
-
-
 ### How to Install
 
 * Download the CurseForge Desktop App.
@@ -57,22 +92,14 @@ Lilac features a Quest system to help introduce new players to Modded concepts a
 * On the Minecraft page, Click "My Modpacks" and then "Import"
   
   ![](readme_images/readmeInstall_Import.png)
-  
-  
 
 * Click "Choose .zip file"
 
 ![](readme_images/readmeInstall_chooseZip.png)
 
-
-
 * Select the .zip file you downloaded from the Releases page.
 
-
-
 Once the Modpack finishes downloading, you should be able to launch it by clicking "Play" on the instance.
-
-
 
 **Optional**
 
