@@ -1,6 +1,6 @@
 version:1343
 invertYMouse:false
-mouseSensitivity:0.20422535
+mouseSensitivity:0.5
 fov:0.375
 gamma:1.0
 saturation:0.0
@@ -15,9 +15,9 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:true
-resourcePacks:["Black Icons§r"]
+resourcePacks:["Black Icons§r","Cocricot_Resourcepack_1.12.2_v1.11.0"]
 incompatibleResourcePacks:[]
-lastServer:
+lastServer:localhos
 lang:en_us
 chatVisibility:0
 chatColors:true
@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:false
 useVbo:false
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0

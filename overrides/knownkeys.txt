@@ -196,3 +196,9 @@ enderio.keybind.fovplus
 enderio.keybind.fovminus
 enderio.keybind.fovplusfast
 enderio.keybind.fovminusfast
+waila.keybind.wailaconfig
+waila.keybind.wailadisplay
+waila.keybind.liquid
+waila.keybind.recipe
+waila.keybind.usage
+WorldEdit Reference
