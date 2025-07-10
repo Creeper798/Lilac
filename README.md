@@ -49,6 +49,8 @@ Misc.
 
 * Ender Storage
 
+* Fossils and Archeology: Revival
+
 * Iron Chests
 
 * Lucky Blocks
