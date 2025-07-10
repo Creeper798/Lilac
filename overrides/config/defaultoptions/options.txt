@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:true
-resourcePacks:["Black Icons§r","Cocricot_Resourcepack_1.12.2_v1.11.0"]
+resourcePacks:["Cocricot_Resourcepack_1.12.2_v1.11.0.zip","Black Icons§r"]
 incompatibleResourcePacks:[]
 lastServer:localhos
 lang:en_us
