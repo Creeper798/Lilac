@@ -87,6 +87,7 @@ key_key.hotbar.8:9
 key_key.hotbar.9:10
 key_of.key.zoom:46
 key_keybind.baublesinventory:0
+key_quark.keybind.lockBuilding:37
 key_quark.keybind.toggleAutojump:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
@@ -106,7 +107,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.lockBuilding:37
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -130,13 +130,12 @@ key_key.ftbquests.quests:0
 key_Galaxy Map:50
 key_Open Spaceship Inventory:33
 key_Toggle Sensor Goggles Mode:37
-key_key.ironbackpacks.equip:35
-key_key.ironbackpacks.open:23
 key_key.moreoverlays.lightoverlay.desc:65
 key_key.moreoverlays.chunkbounds.desc:67
 key_openblocks.keybind.vario_switch:0
 key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
+key_key.wearablebackpacks.open:48
 key_key.open_wct.desc:0
 key_key.cycle_magnet_mode.desc:0
 key_key.xtones.scroll:42

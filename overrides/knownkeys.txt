@@ -202,3 +202,4 @@ waila.keybind.liquid
 waila.keybind.recipe
 waila.keybind.usage
 WorldEdit Reference
+key.wearablebackpacks.open

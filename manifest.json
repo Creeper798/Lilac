@@ -12,7 +12,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Lilac",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "",
   "files": [
     {
@@ -316,11 +316,6 @@
       "required": true
     },
     {
-      "projectID": 227049,
-      "fileID": 2564573,
-      "required": true
-    },
-    {
       "projectID": 248020,
       "fileID": 3178199,
       "required": true
@@ -601,11 +596,6 @@
       "required": true
     },
     {
-      "projectID": 59143,
-      "fileID": 2554237,
-      "required": true
-    },
-    {
       "projectID": 78778,
       "fileID": 2524058,
       "required": true
@@ -628,6 +618,11 @@
     {
       "projectID": 260912,
       "fileID": 2745852,
+      "required": true
+    },
+    {
+      "projectID": 257572,
+      "fileID": 2800372,
       "required": true
     },
     {
