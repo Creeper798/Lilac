@@ -8,6 +8,38 @@ Lilac is a Minecraft 1.12.2 Tech Modpack.
 
 ---
 
+### How to Download
+
+* Go to the Releases page of this Repo
+  
+  * https://github.com/Creeper798/Lilac/releases
+
+* Find the latest release, and Left-Click the .zip file under "Assets" to download it
+
+![](readme_images/readmeDownload.png)
+
+---
+
+### How to Install
+
+* Download the CurseForge Desktop App.
+  
+  * https://www.curseforge.com/download/app
+
+* On the Minecraft page, Click "My Modpacks" and then "Import"
+  
+  ![](readme_images/readmeInstall_Import.png)
+
+* Click "Choose .zip file"
+
+![](readme_images/readmeInstall_chooseZip.png)
+
+* Select the .zip file you downloaded from the Releases page.
+
+Once the Modpack finishes downloading, you should be able to launch it by clicking "Play" on the instance.
+
+---
+
 ### Highlights
 
 **Mods**
@@ -78,38 +110,6 @@ Message Creeper if you need the IP or have issues joining.
 ### Minimum Requirements
 
 6 GB Deditated Ram
-
----
-
-### How to Download
-
-* Go to the Releases page of this Repo
-  
-  * https://github.com/Creeper798/Lilac/releases
-
-* Find the latest release, and Left-Click the .zip file under "Assets" to download it
-
-![](readme_images/readmeDownload.png)
-
----
-
-### How to Install
-
-* Download the CurseForge Desktop App.
-  
-  * https://www.curseforge.com/download/app
-
-* On the Minecraft page, Click "My Modpacks" and then "Import"
-  
-  ![](readme_images/readmeInstall_Import.png)
-
-* Click "Choose .zip file"
-
-![](readme_images/readmeInstall_chooseZip.png)
-
-* Select the .zip file you downloaded from the Releases page.
-
-Once the Modpack finishes downloading, you should be able to launch it by clicking "Play" on the instance.
 
 ---
 
